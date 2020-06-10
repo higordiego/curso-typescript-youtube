@@ -33,3 +33,21 @@ enum colors {
 // any
 let coisa
 coisa = [1]
+
+// void (vazio)
+function logger (): void {
+    console.log('void')
+}
+
+// null | undefined
+type bla = string | undefined
+
+
+// never
+function error(): never {
+    throw new Error("Error")
+}
+
+// object
+let cart: object
+cart = {}
